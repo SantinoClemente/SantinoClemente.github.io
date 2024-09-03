@@ -1,31 +1,61 @@
 ---
 
-title: "About David Florian"
+title: "About Santino Clemente"
 
 ---
 
+Santino specializes in aerodynamics, vehicle design, and rapid prototyping, with experience in multiple high-end Mechanical Engineering projects.
+
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
-
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * Expected Graduation May 2025
+  * BE Mechanical Engineering
+  * Digital Fabrication Minor
+
+## Work Experience
+
+# Vehicle Engineer | Vanderbilt Aerospace Design Lab (May 2024 - Present)
+
+* Part of senior-led team that represents Vanderbilt University at NASA Student Launch Competition 2024-25.
+* In charge of main rocket design, construction and testing, ensuring compliance with NASA’s stringent guidelines and achieving successful payload deployment and recovery.
+* Conduct aerodynamic analysis and performance simulations to optimize vehicle stability, thrust-to-weight ratios, and overall flight dynamics, ensuring the rocket meets target altitude and performance metrics.
+* Collaborate across multidisciplinary teams to design and fabricate critical subsystems, including recovery systems, propulsion, and payload integration.
+
+
+# Race Engineer | Diego Bruera Racing Team (May 2024 - August 2024)
+* Performed regular maintenance and implemented technical upgrades to enhance vehicle performance, ensuring optimal operation throughout the racing season.
+* Assisted in the setup of the car for each race weekend, making real-time adjustments to suspension and tire pressures based on track conditions and driver feedback.
+* Worked closely with the driver and team members to develop strategies that improved overall race results.
+* Achieved a 2nd place finish on June 30th and helped the team secure 5th place out of 60 in the Championship standings after seven races.
+
+# Student Dining Worker | Vanderbilt Campus Dining (November 2021 - Present)
+* Prepare and serve food and beverages to student-athletes, coaches, and staff in a fast-paced environment.
+* Maintain cleanliness and sanitation of dining areas, utensils, and storage facilities according to health and safety standards.
+* Assist with inventory, stocking, cashiering, and other tasks as assigned by head chef and supervisor.
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
-
+* SolidWorks
+* MATLAB
+* Fluid Mechanics
 * Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+* Laser Cutting
+* Technical Writing
 
-## Press 
+## Awards
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+* Argentine Math Olympiads (OMA)
+  * National Champion, Olimpíada Matemática Ñandú, 2015.
+  * Gold Medalist, Olimpíada Matemática Rioplatense, 2015. (South American stage)
+  * 3x Silver Medalist, Olimpíada Iberoamericana de Mayo, 2015-2017. (Iberian-American stage)
+  * Bronze Medalist, Olimpíada Matemática Rioplatense, 2017; Olimpíada Iberoamericana de Mayo, 2018.
+  * Honorable Mention (5x), Olimpíada Matemática Argentina, 2016-2020; Olimpíada del Cono Sur, 2018.
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+## Languages spoken
+
+* Spanish (native)
+* Italian (fluent)
+* English (fluent)
+* Portuguese (intermediate)
+* French (intermediate)

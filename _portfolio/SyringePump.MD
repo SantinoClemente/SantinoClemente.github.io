@@ -59,6 +59,8 @@ Many medical situations require a device to administer specific doses of fluids 
 
 # Arduino Code
 
+The Arduino code can be found [here](https://github.com/SantinoClemente/SantinoClemente.github.io/blob/main/assets/img/SyringePump_code).
+
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a43a7ed807993c6119?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 

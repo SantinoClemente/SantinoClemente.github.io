@@ -39,8 +39,9 @@ Santino specializes in aerodynamics, vehicle design, and rapid prototyping, with
 * SolidWorks
 * MATLAB
 * Fluid Mechanics
-* Fused Filament Fabrication (FFF)
-* Laser Cutting
+* Digital Fabrication Tools
+  * Fused Filament Fabrication (FFF)
+  * Laser Cutting
 * Technical Writing
 
 ## Awards

@@ -1,0 +1,148 @@
+#include <AccelStepper.h>
+#include <LCD_I2C.h>
+LCD_I2C lcd(0x27);
+
+#define motorPin1 6
+#define motorPin2 5
+
+AccelStepper stepper(AccelStepper::DRIVER, motorPin1, motorPin2);
+
+const int potPin = A0;
+
+const int buttonPin = 2;
+const int limitSwitchPin = 4;
+
+const int ledRed = 9;
+const int ledGreen = 10;
+const int ledBlue = 11;
+const int forwardPin = 12;
+const int backwardPin = 13;
+
+double volumeGone = 0.0;
+double initialVolume = 0.0;
+unsigned long previousMillis = 0;
+double lastDisplayedTimeLeft = -1.0;
+
+int buttonState = 0;
+double flowRate = 0.0;
+double potFlowRate = 0.0;
+
+double givenFlowRate = 0.6; // mL/min, use 0 if only using potentiometer value
+double syrDiameter = 14.31; // mm, 14.31 or 19.51 for small or large syringe
+
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP);
+  pinMode(limitSwitchPin, INPUT_PULLUP);
+  pinMode(forwardPin, INPUT_PULLUP);
+  pinMode(backwardPin, INPUT_PULLUP);
+  pinMode(ledRed, OUTPUT);
+  pinMode(ledGreen, OUTPUT);
+  pinMode(ledBlue, OUTPUT);
+
+  stepper.setMaxSpeed(1000);
+
+  lcd.begin();
+  lcd.backlight();
+  lcd.print("Flow rate: ");
+  lcd.setCursor(0,1);
+  lcd.print("Left: ");
+
+  Serial.begin(9600);
+}
+
+void setColor(int R, int G, int B) {
+  // Function to set the color of the LED
+  analogWrite(ledRed, R);
+  analogWrite(ledGreen, G);
+  analogWrite(ledBlue, B); 
+}
+
+double speedCalc(double flow, double diameter) {
+// Obtain speed in steps/sec, given flow rate and diameter
+
+  double linearSpeed;
+  double finalSpeed;
+
+  linearSpeed = flow * 4 / (0.001 * 3.1416 * (diameter * diameter)); // mm/min
+  finalSpeed = linearSpeed * 200 / (2 * 60); // steps/sec
+  return finalSpeed;
+}
+
+double timeCalc(double flow, double diameter, double volumeGone) {
+// Obtain time left to be displayed, given flow rate, diameter and volume already dispensed.
+
+  int initialVolume; // mL
+  double timeLeft; // min
+
+  if (diameter == 14.31) {
+    initialVolume = 10;  // mL for 14.31 mm diameter syringe
+  } else if (diameter == 19.51) {
+      initialVolume = 20;  // mL for 19.51 mm diameter syringe
+    }
+
+  double volumeLeft = initialVolume - volumeGone;
+  timeLeft = volumeLeft / flow;
+  return timeLeft;
+}
+
+void loop() {
+  unsigned long currentMillis = millis();
+  int potValue = analogRead(potPin);
+  potFlowRate = map(potValue, 0, 1023, 0, 500) / 100.0; // Map pot reading to 0-5 
+  flowRate = givenFlowRate + potFlowRate; // Total flowrate is sum from input and potentiometer
+
+  double speed = speedCalc(flowRate, syrDiameter);
+  lcd.setCursor(11,0);
+  lcd.print(flowRate, 2); // Display the flow rate to two decimal places in the right character slots
+
+  buttonState = digitalRead(buttonPin);
+
+  if (digitalRead(limitSwitchPin) == LOW || digitalRead(forwardPin) == HIGH || digitalRead(backwardPin) == HIGH) {
+    // This if-statement checks if either manual direction pin or the limit switch pin was activated. These should
+    // overrun the functioning of the pump when regularly running, so we check for these first.
+    if (digitalRead(limitSwitchPin) == LOW) { // If limit switch pin is hit
+      stepper.setSpeed(0);
+      stepper.runSpeed();
+      setColor(255, 0, 0); // Red
+    }
+    if (digitalRead(forwardPin) == HIGH) { // If manually moving forward
+      stepper.setSpeed(800);
+      stepper.runSpeed();
+      setColor(0, 0, 255); // Blue (to distinguish from all other actions)
+    }
+    if (digitalRead(backwardPin) == HIGH) { // If manually moving backward
+      stepper.setSpeed(-800);
+      stepper.runSpeed();
+      setColor(0, 0, 255); // Blue as well
+    }
+  } else if (buttonState == HIGH) { // If start button is pressed
+    if (previousMillis == 0) {
+      previousMillis = currentMillis;
+    }
+    stepper.setSpeed(speed);
+    stepper.runSpeed();
+    setColor(0, 255, 0); // Green
+
+    // Count time elapsed for displaying purposes
+    double elapsedTime = (currentMillis - previousMillis) / 60000.0; // Convert milliseconds to minutes
+    volumeGone += flowRate * elapsedTime;
+    double timeLeft = timeCalc(flowRate, syrDiameter, volumeGone);
+
+    // Update the LCD only if there is a change in time left (otherwise it was continously flickering)
+    if (abs(timeLeft - lastDisplayedTimeLeft) > 0.01) {
+      lcd.setCursor(6,1);
+      lcd.print("      "); // Clear previous time left
+      lcd.setCursor(6,1);
+      lcd.print(timeLeft, 2); // Print with two decimal places
+      lcd.print(" min");
+      lastDisplayedTimeLeft = timeLeft; // Update the last displayed time
+    }
+
+    previousMillis = currentMillis;
+  } else { // If running is paused
+    stepper.setSpeed(0);
+    stepper.runSpeed();
+    setColor(255, 255, 0); // Yellow
+    previousMillis = 0; // Reset previousMillis when stopped to prevent time accumulation
+  }
+}

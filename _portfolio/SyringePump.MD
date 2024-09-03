@@ -24,7 +24,34 @@ Many medical situations require a device to administer specific doses of fluids 
 
 # Off-the-shelf parts required
 
+| Off-the-Shelf Required Parts                                        | Quantity |
+| ------------------------------------------------------------------- |:--------:|
+| 250 mm lead screw with 2 mm pitch and 2 mm lead                     |    1     |
+| 1/4” x 8mm Flexible Coupling                                         |    1     |
+| 200 mm linear rod with 8 mm diameter                                 |    2     |
+| LM8UU Linear bearing for 8 mm diameter rod                          |    2     |
+| 2040 Aluminum Extrusion 1’ Length                                    |    1     |
+| Nema 17 Stepper Motor                                                |    1     |
+| MEAN WELL RQ-65D AC-DC Power Supply Quad Output 5V 12V 24V 12V 4 Amp |    1     |
+| Arduino Uno                                                          |    1     |
+| A4988 Stepper Driver                                                 |    1     |
+| Small Breadboard                                                     |    1     |
+| Panel Mount Latching Push Buttons                                    |    1     |
+| Panel Mount Momentary Push Buttons                                   |    3     |
+| LCD Display                                                          |    1     |
+| Limit Switch                                                         |    1     |
+| RGB Common Cathode LED                                               |    1     |
+| Potentiometer                                                        |    1     |
+
 # 3D printed parts required
+
+| 3D Printed Required Parts | Quantity |
+| ------------------------- |:--------:|
+| Carriage                  |    1     |
+| Enclosure Top & Bottom    |    1     |
+| End Support               |    2     |
+| Motor Mounting Plate      |    1     |
+
 
 # Arduino Code
 

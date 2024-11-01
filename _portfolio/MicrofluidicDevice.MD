@@ -41,7 +41,7 @@ Our design includes two inlets and two outlets for bidirectional testing of the 
 {% include gallery caption="Microfluidic Homogeneous Mold (left) and Cast Mixer (right) for Efficient Fluid Mixing" %}
 
 - *[Embedded YouTube video demonstrating fluid mixing]*
-
+<iframe width="640" height="480" src="https://www.youtube.com/embed/w9IzuEYp7R0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Applications
 

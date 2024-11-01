@@ -1,5 +1,5 @@
 ---
-title: "Syringe Pump"
+title: "Microfluidic Homogenous Mixer"
 excerpt: "Syringe Pump for Volumetric Flow Control"
 header:
   teaser: assets/img/SyringePump.jpg

@@ -2,7 +2,7 @@
 title: "Microfluidic Homogeneous Mixer"
 excerpt: "Microfluidic Device for Efficient Mixing of Fluids"
 header:
-  teaser: assets/img/Teaser.JPEG
+  teaser: assets/img/uFluidicTeaser.jpg
 gallery:
   - image_path: assets/img/Mold.JPEG
   - image_path: assets/img/CastDevice.JPEG

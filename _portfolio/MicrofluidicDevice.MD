@@ -15,12 +15,12 @@ Microfluidic devices are essential in fields like **chemical synthesis** and **b
 
 # Design Rationale
 
-Our design includes two inlets and two outlets for bidirectional testing of the device's mixing efficiency. The geometry, featuring a combination of **zig-zag channels** and other mixing elements, was carefully chosen to ensure consistent and thorough blending. The device dimensions were calibrated to fit on a standard microscope slide (25 mm x 75 mm), facilitating easy observation and analysis.
+The design includes two inlets and two outlets for bidirectional testing of the device's mixing efficiency. The geometry, featuring a combination of **zig-zag channels** and three-dimensional triangles, was carefully chosen to ensure consistent and thorough blending. The device dimensions were calibrated to fit on a standard microscope slide (25 mm x 75 mm), facilitating easy observation and analysis.
 
 # Instructions for Assembly
 
 1. **Print and Cure Mold**: 
-   - The Fusion 360 CAD model of the mold was printed using high-resolution settings (0.025 mm layer height) on a Form 3+/4 SLA printer. The mold was cured to ensure flatness and stability.
+   - The Fusion 360 CAD model of the mold was printed using high-resolution settings (0.025 mm layer height) on a Form 4 SLA printer. The mold was cured to ensure flatness and stability.
    
 2. **Parylene Coating**: 
    - To prevent PDMS adhesion and facilitate easy demolding, the printed mold was coated with parylene, creating a smooth and uniform surface.

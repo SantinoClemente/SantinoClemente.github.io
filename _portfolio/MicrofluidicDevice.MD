@@ -31,8 +31,7 @@ Our design includes two inlets and two outlets for bidirectional testing of the 
 4. **Plasma Bonding to Glass Slide**: 
    - The cured PDMS structure was bonded onto a glass slide using plasma treatment, creating a leak-proof seal.
 
-# Fusion 360 CAD Model
-The Fusion 360 model for the Microfluidic Homogeneous Mixer can be viewed below. The sketches are fully constrained, and each section is appropriately labeled for clarity.
+# Fusion 360 CAD Model for Mold
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4d7abc605adadd798?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 

@@ -38,12 +38,12 @@ Our design includes two inlets and two outlets for bidirectional testing of the 
 # Multimedia
 *Below are images of the mold and cast device. A video demonstrating the device in action is embedded for visualization.*
 
-- *[Image of 3D printed mold]* 
-- *[Image of final PDMS-cast device]* 
+{% include gallery caption="Microfluidic Homogeneous Mold (left) and Cast Mixer (right) for Efficient Fluid Mixing" %}
+
 - *[Embedded YouTube video demonstrating fluid mixing]*
+
 
 # Applications
 
 Homogeneous mixers like this one play a crucial role in processes requiring **precise mixing** at the micro-level. Potential applications include **nanoparticle generation** and **controlled chemical reactions** where uniform blending is essential.
 
-{% include gallery caption="Microfluidic Homogeneous Mixer for Efficient Fluid Mixing" %}

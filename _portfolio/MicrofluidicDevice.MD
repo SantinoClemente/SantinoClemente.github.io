@@ -34,7 +34,7 @@ Our design includes two inlets and two outlets for bidirectional testing of the 
 # Fusion 360 CAD Model
 The Fusion 360 model for the Microfluidic Homogeneous Mixer can be viewed below. The sketches are fully constrained, and each section is appropriately labeled for clarity.
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SHxxxxxxxxxxxxxxxxxxxx?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4d7abc605adadd798?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Multimedia
 *Below are images of the mold and cast device. A video demonstrating the device in action is embedded for visualization.*

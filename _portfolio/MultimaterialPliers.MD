@@ -1,5 +1,5 @@
 ---
-title: "Multi-Material Print-in-Place Pliers"
+title: "Multi-Material Pliers"
 excerpt: "Multi-Material 3D Printed Pliers for Precision Gripping"
 header:
   teaser: assets/img/Teaser_Pliers.JPEG

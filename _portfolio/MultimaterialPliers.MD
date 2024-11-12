@@ -24,3 +24,36 @@ Print-in-place technology is a powerful advancement in 3D printing, allowing for
 For functional print-in-place models, using a combination of **rigid and flexible materials** works well. In this design, we employed **rigid PLA** for the plier jaws and handles, and **95A TPU** for the spring element, balancing flexibility and durability.
 
 # Design and Iterative Process
+
+1. **Initial Concept and CAD Modeling**: 
+   - xxx
+
+2. **Testing and Refinements**: 
+   - xxx
+
+# Relevant Specifications
+
+- **Jaw Length**: 80mm
+- **Jaw Capacity**: 10mm
+
+# Print Settings
+
+| Setting         | Value      |
+| --------------- | ---------- |
+| Layer Height    | xxx    |
+| Infill Density  | xxx        |
+| Material        | PLA (handles and tips), 95A TPU (spring) |
+| Print Speed     | xxx    |
+
+# Fusion 360 CAD Model
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a44bb592effdf42de0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+# Picture Gallery
+*Below are images documenting the iterative process and final design.*
+
+{% include gallery caption="Iterations of the multi-material pliers, demonstrating design refinements and final functionality" %}
+
+# Demonstration
+![Working Pliers GIF](assets/img/WorkingPliers.gif)
+

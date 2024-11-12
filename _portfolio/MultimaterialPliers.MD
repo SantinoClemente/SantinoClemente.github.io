@@ -55,5 +55,5 @@ For functional print-in-place models, using a combination of rigid and flexible 
 {% include gallery caption="Iterations of the multi-material pliers, demonstrating design refinements and final functionality" %}
 
 # Demonstration
-assets/img/WorkingPliers.gif
+include assets/img/WorkingPliers.gif
 

@@ -12,7 +12,7 @@ gallery:
 
 # About the Project
 
-This project focuses on designing multi-material needle nose pliers capable of gripping and manipulating delicate components, such as through-hole resistors. These pliers integrate a flexible spring component made from TPU to facilitate MOBILITY, allowing continuous use without manual resetting.
+This project focuses on designing multi-material needle nose pliers capable of gripping and manipulating delicate components, such as through-hole resistors. These pliers integrate a flexible spring component made from TPU to facilitate mobility, allowing continuous use without manual resetting.
 
 Print-in-place models like these enable functional, multi-component designs that work immediately after being removed from the print bed, requiring no post-processing or assembly. By creating a flexible element in the model, we ensured the necessary motion without traditional hinges or added fasteners.
 

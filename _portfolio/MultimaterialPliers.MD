@@ -21,7 +21,7 @@ Print-in-place models like these enable functional, multi-component designs that
 Print-in-place technology is a powerful advancement in 3D printing, allowing for pre-assembled parts that function straight out of the printer. These parts can be printed as a single unit, which simplifies the assembly process and minimizes the risk of component misalignment. Common applications of print-in-place include gears, hinges, and tools where intricate motion is essential, like working wrenches or scissors.
 
 ### Materials Used in Print-in-Place
-For functional print-in-place models, using a combination of **rigid and flexible materials** works well. In this design, we employed **rigid PLA** for the plier jaws and handles, and **95A TPU** for the spring element, balancing flexibility and durability.
+For functional print-in-place models, using a combination of rigid and flexible materials works well. In this design, we employed rigid PLA for the plier jaws and handles, and 95A TPU for the spring element, balancing flexibility and durability.
 
 # Design and Iterative Process
 

@@ -26,14 +26,15 @@ For functional multi-material models, using a combination of rigid and flexible 
 # Design and Iterative Process
 
 1. **Initial Concept and CAD Modeling**: 
-   - The entire CAD assembly was created using Fusion 360, 
+   - The entire CAD assembly was created using Fusion 360. The first component designed was the spring center, to be printed out of flexible TPU. This component features a 30mm x 30mm center square hole, which allows for lateral compression which translates into rotation of the tips. It also contains four "C" shaped extrusions (one on each side of the square) which will allow it to fit tight with the other components. The handles and tips, to be printed out of rigid PLA, were designed around the center spring, aiming to optimize handleability. The first iteration was extruded to be 5mm tall, with a 0.2mm clearance between the center spring and each component around it.
 
 2. **Testing and Refinements**: 
-   - xxx
+   - Once the first plier prototype was printed and assembled, it was tested to check its' performance. The pliers were able to pick up and hold through-hole resistors, but the fit between the components was loose so the pliers fell apart after a couple uses. For a second iteration, two modifications were made to the design to achieve a tighter and stronger fit: the plier height was increased to 10mm, and the clearance was decreased to 0mm. These modifications were easy to perform due to these two variables being added as parameters in the original design. This iteration was printed, assembled and tested, achieving much better results.
 
 # Relevant Specifications
 
-- **Jaw Length**: 80mm
+- **Jaw Length**: 12.4mm
+- **Plier Height**: 10mm
 - **Jaw Capacity**: 10mm
 
 # Print Settings

@@ -12,16 +12,15 @@ gallery:
 
 # About the Project
 
-This project focuses on designing multi-material needle nose pliers capable of gripping and manipulating delicate components, such as through-hole resistors. These pliers integrate a flexible spring component made from TPU to facilitate mobility, allowing continuous use without manual resetting.
+This project focuses on designing multi-material pliers capable of gripping and manipulating delicate components, such as through-hole resistors. These pliers integrate a flexible spring component made from TPU to facilitate mobility, allowing continuous use.
 
-Print-in-place models enable functional, multi-component designs that work immediately after being removed from the print bed, requiring no post-processing or assembly. By creating a flexible element in the model, we ensured the necessary motion without traditional hinges or added fasteners. Due to lack of printer availability, this assembly was made by modeling and printing three separate components, to be printed from different materials and quickly assembled.
 
 # Print-in-Place and Multi-Material Printing
 
-Print-in-place technology is a powerful advancement in 3D printing, allowing for pre-assembled parts that function straight out of the printer. These parts can be printed as a single unit, which simplifies the assembly process and minimizes the risk of component misalignment. Common applications of print-in-place include gears, hinges, and tools where intricate motion is essential, like working wrenches or scissors.
+Print-in-place models enable functional, multi-component designs that work immediately after being removed from the print bed, requiring no post-processing or assembly. This is a powerful advancement in 3D printing, allowing for pre-assembled parts that can be printed as a single unit, which simplifies the assembly process and minimizes the risk of component misalignment. Common applications of print-in-place include gears, hinges, and tools where intricate motion is essential, like working wrenches or scissors. Due to lack of printer availability, this assembly was made by modeling and printing three separate components, to be printed from different materials and quickly assembled.
 
 ### Materials Used
-For functional multi-material models, using a combination of rigid and flexible materials works well. In this design, we employed  PLA for the plier jaws and handles, and 95A TPU for the spring element, balancing flexibility and durability.
+For functional multi-material models, using a combination of rigid and flexible materials works well. In this design, we employed PLA for the plier jaws and handles, and 95A TPU for the spring element, balancing flexibility and durability.
 
 # Design and Iterative Process
 

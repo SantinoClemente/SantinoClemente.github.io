@@ -14,19 +14,19 @@ gallery:
 
 This project focuses on designing multi-material needle nose pliers capable of gripping and manipulating delicate components, such as through-hole resistors. These pliers integrate a flexible spring component made from TPU to facilitate mobility, allowing continuous use without manual resetting.
 
-Print-in-place models like these enable functional, multi-component designs that work immediately after being removed from the print bed, requiring no post-processing or assembly. By creating a flexible element in the model, we ensured the necessary motion without traditional hinges or added fasteners.
+Print-in-place models enable functional, multi-component designs that work immediately after being removed from the print bed, requiring no post-processing or assembly. By creating a flexible element in the model, we ensured the necessary motion without traditional hinges or added fasteners. Due to lack of printer availability, this assembly was made by modeling and printing three separate components, to be printed from different materials and quickly assembled.
 
 # Print-in-Place and Multi-Material Printing
 
 Print-in-place technology is a powerful advancement in 3D printing, allowing for pre-assembled parts that function straight out of the printer. These parts can be printed as a single unit, which simplifies the assembly process and minimizes the risk of component misalignment. Common applications of print-in-place include gears, hinges, and tools where intricate motion is essential, like working wrenches or scissors.
 
-### Materials Used in Print-in-Place
-For functional print-in-place models, using a combination of rigid and flexible materials works well. In this design, we employed rigid PLA for the plier jaws and handles, and 95A TPU for the spring element, balancing flexibility and durability.
+### Materials Used
+For functional multi-material models, using a combination of rigid and flexible materials works well. In this design, we employed  PLA for the plier jaws and handles, and 95A TPU for the spring element, balancing flexibility and durability.
 
 # Design and Iterative Process
 
 1. **Initial Concept and CAD Modeling**: 
-   - xxx
+   - The entire CAD assembly was created using Fusion 360, 
 
 2. **Testing and Refinements**: 
    - xxx
@@ -40,10 +40,9 @@ For functional print-in-place models, using a combination of rigid and flexible 
 
 | Setting         | Value      |
 | --------------- | ---------- |
-| Layer Height    | xxx    |
-| Infill Density  | xxx        |
+| Infill Density  | 20% (handles and tips), 10% (spring |
+| Nozzle Diameter  | 0.6mm |
 | Material        | PLA (handles and tips), 95A TPU (spring) |
-| Print Speed     | xxx    |
 
 # Fusion 360 CAD Model
 
@@ -55,5 +54,5 @@ For functional print-in-place models, using a combination of rigid and flexible 
 {% include gallery caption="Iterations of the multi-material pliers, demonstrating design refinements and final functionality" %}
 
 # Demonstration
-![Working Pliers](assets/img/WorkingPliers.gif)
+![Working Pliers](/assets/img/WorkingPliers.gif)
 

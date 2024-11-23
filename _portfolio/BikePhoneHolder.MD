@@ -48,6 +48,4 @@ Top-down modeling is a CAD methodology that ensures  components are designed in 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a454b25e577f9993e7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Picture Gallery
-*Below are images of the final bike phone holder prototype.*
-
-{% include gallery caption="Iterations of the bike phone holder, from design to final implementation." %}
+*Below are images of the final bike phone holder prototype working on both orientations.*

@@ -36,7 +36,6 @@ Top-down modeling is a CAD methodology that ensures  components are designed in 
    - The clamp and phone holder were designed in Fusion 360, using a top-down approach and parametric modeling for easy adjustments.
    - Key variables like handlebar diameter, clamp length and phone tilt angle a were incorporated for a precise design.
    - The ball joint design was chosen due to the extra degrees of freedom it provides in adjustments.
-   - The 
 
 2. **Printing and Testing**:
    - The first prototype was printed with PLA to check for fits  and tested on a 25mm tube.

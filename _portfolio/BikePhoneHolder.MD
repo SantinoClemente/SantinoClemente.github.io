@@ -1,6 +1,6 @@
 ---
 title: "Bike Phone Holder"
-excerpt: "Top-Down Modeled, Adjustable Phone Holder for Bikes and Scooters"
+excerpt: "Adjustable Phone Holder for Bikes and Scooters"
 header:
   teaser: assets/img/PhoneHolder_Teaser.jpg
 gallery:

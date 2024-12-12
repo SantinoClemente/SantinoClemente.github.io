@@ -11,7 +11,7 @@ gallery:
 
 # About the Project
 
-This project focuses on designing a lightweight truck hanger, including a motor mount, for an electric longboard, using generative design and powder bed fusion printing.
+(Don't grade me yet) This project focuses on designing a lightweight truck hanger, including a motor mount, for an electric longboard, using generative design and powder bed fusion printing.
 # Design and Generative Process
 
 Generative design was used to achieve a lightweight, structurally efficient geometry for the truck hanger, integrating the motor mount for a brushless DC motor.
@@ -35,10 +35,9 @@ Generative design was used to achieve a lightweight, structurally efficient geom
 
 ### Embedded CAD Models
 - **ALSi10Mg Outcome**:
-  <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH28abcde78850c0d8a454b25e577f9993e7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
+  <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a431c63c86a9627dda?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 - **Nylon 12 Outcome**:
-  <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH28abcd678850c0d8a454b25e577f9993e7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+  <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a410c8fac79c32fb75?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Images and Renders
 *Below are images of the rendered design and the SLS-printed ALSi10Mg model.*

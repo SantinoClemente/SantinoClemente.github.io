@@ -1,0 +1,85 @@
+---
+title: "Generative Design Truck Hanger and Motor Mount"
+excerpt: "Lightweight and Integrated Truck Hanger for Electric Longboards"
+header:
+  teaser: assets/img/TruckHanger_Teaser.jpg
+gallery:
+  - image_path: assets/img/TruckHanger_Render.jpg
+  - image_path: assets/img/TruckHanger_Assembled.jpg
+
+---
+
+# About the Project
+
+This project focuses on designing a lightweight truck hanger, including a motor mount, for an electric longboard, using generative design and powder bed fusion printing.
+# Design and Generative Process
+
+Generative design was used to achieve a lightweight, structurally efficient geometry for the truck hanger, integrating the motor mount for a brushless DC motor.
+
+### Key Design Features:
+1. **Material Selection**:
+   - Nylon 12: Lightweight and flexible.
+   - ALSi10Mg: Strong and rigid, suitable for high-stress applications.
+
+2. **Integrated Motor Mount**:
+   - Slots for motor adjustment were made precise belt tensioning.
+   - Fits a 6374 brushless motor and a 285 mm belt.
+
+3. **Optimized Geometry**:
+   - Clearance for 90 mm wheels, 608ZZ bearings, axle rod, kingpin and other obstacle geometries.
+   - Structural support for torque transfer while minimizing mass.
+
+4. **Parametric Design**:
+   - Load cases based on rider weight, motor torque and weight, and other load scenarios.
+   - Constraint placed on the kingpin through-hole to simulate real world forces.
+
+### Embedded CAD Models
+- **ALSi10Mg Outcome**:
+  <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH28abcde78850c0d8a454b25e577f9993e7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+- **Nylon 12 Outcome**:
+  <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH28abcd678850c0d8a454b25e577f9993e7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+### Images and Renders
+*Below are images of the rendered design and the SLS-printed ALSi10Mg model.*
+
+{% include gallery caption="Rendered and assembled generative design truck hanger" %}
+
+# Discussion
+
+### Powder Bed Fusion and Generative Design in Industry
+Generative design and  powder bed fusion have revolutionized industries like aerospace and automotive. A notable example is General Motors' use of generative design to consolidate 8 parts into 1 for seat brackets, reducing weight and improving strength. This process generates complex geometries that are impossible to manufacture with traditional methods, reducing assembly steps and optimizing performance.
+
+### Load Cases and Structural Constraints
+Proper load case definition is critical. For this project:
+- **Forces Applied**: Rider weight (80 kg), motor torque (8 Nm) and weight, impact forces during landing, belt tension, shear forces on trucks.
+- **Constraints**: Kingpin through-hole as a fixed point.
+- **Outcomes**: Ensured structural integrity while maintaining a lightweight design.
+
+### Nylon vs. Aluminum Outcomes
+1. **Nylon 12**:
+   - Lightweight and cost-effective for prototyping.
+   - Limited strength and stiffness, not suitable for real-world riding.
+
+2. **ALSi10Mg**:
+   - Superior strength and thermal properties.
+   - More expensive and requires contract manufacturing for metal SLS printing.
+
+### Critique of Generative Design
+Generative design offers amazing optimization:
+- **Pros**:
+  - Reduces material waste. consolidates components.
+  - Ground-breaking for complex, high-performance applications that can't be manually designed.
+- **Cons**:
+  - High computational cost and reliance on software accuracy.
+  - Limited applicability in designs requiring frequent modification.
+
+### Applications
+Generative design is best suited for industries requiring weight optimization and high performance. Parts ideal for generative design are aerospace brackets, automotive frames, and custom prosthetics.
+
+# Real-World Images
+*Images of the ALSi10Mg printed truck hanger attached to the longboard.*
+
+{% include gallery caption="SLS-printed ALSi10Mg truck hanger in final assembly" %}
+
+---

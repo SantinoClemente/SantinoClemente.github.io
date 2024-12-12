@@ -78,8 +78,8 @@ Generative design offers amazing optimization:
 Generative design is best suited for industries requiring weight optimization and high performance. Parts ideal for generative design are aerospace brackets, automotive frames, and custom prosthetics.
 
 # Real-World Images
-*Images of the ALSi10Mg printed truck hanger attached to the longboard.*
+*Images of the ALSi10Mg printed truck hanger attached to the longboard. The hanger was filament printed instead of powder printed*
 
-{% include gallery caption="SLS-printed ALSi10Mg truck hanger in final assembly" %}
+{% include gallery caption="Filament printed truck hanger (designed for ALSi10Mg) in final assembly" %}
 
 ---

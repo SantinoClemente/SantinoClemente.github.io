@@ -41,7 +41,7 @@ Generative design was used to achieve a lightweight, structurally efficient geom
   <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a410c8fac79c32fb75?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Images and Renders
-*Below are images of the rendered design and the SLS-printed ALSi10Mg model.*
+*Below are images of the rendered design and the physical ALSi10Mg model. The model was filament printed instead of SLS-printed.*
 
 {% include gallery caption="Rendered and assembled generative design truck hanger" %}
 

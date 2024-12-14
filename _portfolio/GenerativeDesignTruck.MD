@@ -12,7 +12,7 @@ gallery:
 
 # About the Project
 
-(Don't grade me yet) This project focuses on designing a lightweight truck hanger, including a motor mount, for an electric longboard, using generative design and powder bed fusion printing.
+This project focuses on designing a lightweight truck hanger, including a motor mount, for an electric longboard, using generative design and powder bed fusion printing.
 # Design and Generative Process
 
 Generative design was used to achieve a lightweight, structurally efficient geometry for the truck hanger, integrating the motor mount for a brushless DC motor.

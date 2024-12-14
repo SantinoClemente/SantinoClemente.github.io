@@ -47,39 +47,61 @@ Generative design was used to achieve a lightweight, structurally efficient geom
 
 # Discussion
 
-### Powder Bed Fusion and Generative Design in Industry
-Generative design and  powder bed fusion have revolutionized industries like aerospace and automotive. A notable example is General Motors' use of generative design to consolidate 8 parts into 1 for seat brackets, reducing weight and improving strength. This process generates complex geometries that are impossible to manufacture with traditional methods, reducing assembly steps and optimizing performance.
+## Powder Bed Fusion and Generative Design in Industry
+Generative design and powder bed fusion have revolutionized industries like aerospace and automotive. A notable example is General Motors' use of generative design to consolidate eight parts into one for seat brackets, reducing weight and improving strength. This process generates complex geometries that are impossible to manufacture with traditional methods, reducing assembly steps and optimizing performance.
 
-### Load Cases and Structural Constraints
-Proper load case definition is critical. For this project:
-- **Forces Applied**: Rider weight (80 kg), motor torque (8 Nm) and weight, impact forces during landing, belt tension, shear forces on trucks.
-- **Constraints**: Kingpin through-hole as a fixed point.
-- **Outcomes**: Ensured structural integrity while maintaining a lightweight design.
+## Load Cases and Structural Constraints
+Accurately defining load cases is essential to ensure the success of generative designs. For this project, multiple forces and constraints were considered:
+- Forces Applied:
+  - Rider weight (~80 kg) acting vertically on the truck axle.
+  - Motor torque (~8 Nm) applied through the belt to the motor mount.
+  - Shear forces due to acceleration and deceleration.
+  - Impact forces during bumps or uneven surfaces.
+  - Tension from the belt pulling on the motor mount.
+- Constraints:
+  - The kingpin through-hole was defined as a fixed point to simulate the base plate attachment.
+  - Structural constraints were placed on the axle to simulate wheel loads and ensure smooth turning.
+- Outcomes:
+  - Generative design produced a lightweight solution while meeting all structural requirements. The optimized geometry supports the required forces while minimizing material use.
 
-### Nylon vs. Aluminum Outcomes
-1. **Nylon 12**:
-   - Lightweight and cost-effective for prototyping.
-   - Limited strength and stiffness, not suitable for real-world riding.
+## Nylon vs. Aluminum Outcomes
+This project explored designs for two materials with distinct properties:
 
-2. **ALSi10Mg**:
-   - Superior strength and thermal properties.
-   - More expensive and requires contract manufacturing for metal SLS printing.
+1. Nylon 12:
+   - Advantages:
+     - Lightweight and easy to manufacture using SLS.
+     - Cost-effective for rapid prototyping and testing.
+   - Limitations:
+     - Lower strength and stiffness make it unsuitable for high-stress applications like longboard trucks.
+     - Poor thermal properties compared to metals, limiting its use in heat-generating assemblies.
 
-### Critique of Generative Design
-Generative design offers amazing optimization:
-- **Pros**:
-  - Reduces material waste. consolidates components.
-  - Ground-breaking for complex, high-performance applications that can't be manually designed.
-- **Cons**:
-  - High computational cost and reliance on software accuracy.
-  - Limited applicability in designs requiring frequent modification.
+2. ALSi10Mg:
+   - Advantages:
+     - High strength and stiffness, ideal for supporting rider loads and motor torque.
+     - Superior thermal conductivity, making it suitable for high-performance applications.
+     - Good fatigue resistance, ensuring long-term durability.
+   - Limitations:
+     - Higher cost and reliance on external manufacturers for metal SLS printing.
+     - Heavier than Nylon 12, which may impact weight-sensitive designs.
 
-### Applications
-Generative design is best suited for industries requiring weight optimization and high performance. Parts ideal for generative design are aerospace brackets, automotive frames, and custom prosthetics.
+## Critique of Generative Design
+Generative design is a powerful tool for creating highly optimized parts, but it is not without limitations:
+- Pros:
+  - Material and cost savings. The ability to minimize material usage reduces waste and manufacturing costs in the long run.
+  - Complex geometries. It enables designs that would be impossible to produce manually, such as internal lattice structures or multi-functional integrated components.
+  - Performance improvement. Generative designs are often lighter, stronger, and more efficient than traditionally designed parts.
+- Cons:
+  - Computational intensity. Generative design requires significant processing power and time, making it less practical for small-scale projects.
+  - Dependency on accurate input. The success of generative design relies heavily on the accuracy of applied loads, constraints, and manufacturing parameters.
+  - Limited flexibility. Once a design is finalized, modifications can be challenging and time-consuming due to the complexity of the generated geometry.
 
-# Real-World Images
-*Images of the ALSi10Mg printed truck hanger attached to the longboard. The hanger was filament printed instead of powder printed*
+## Applications
+Generative design and powder bed fusion are particularly effective in industries requiring weight optimization, strength, and customizability:
+- Aerospace: Lightweight brackets, structural frames, and turbine components.
+- Automotive: Vehicle chassis, engine mounts, and battery enclosures.
+- Medical: Custom prosthetics, implants, and surgical tools.
+- Consumer Products: High-performance sports equipment and ergonomic designs.
 
-{% include gallery caption="Filament printed truck hanger (designed for ALSi10Mg) in final assembly" %}
+By integrating generative design into more industries, manufacturers can achieve unprecedented levels of performance and efficiency, unlocking innovative solutions for complex engineering challenges.
 
 ---

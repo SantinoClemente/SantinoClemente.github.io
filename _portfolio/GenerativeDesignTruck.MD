@@ -2,11 +2,11 @@
 title: "Generative Design Truck Hanger and Motor Mount"
 excerpt: "Lightweight and Integrated Truck Hanger for Electric Longboards"
 header:
-  teaser: assets/img/TruckHanger_Teaser.jpg
+  teaser: assets/img/TruckHanger_Teaser.JPEG
 gallery:
-  - image_path: assets/img/TruckHanger_FrontView.jpg
+  - image_path: assets/img/TruckHanger_FrontView.JPEG
   - image_path: assets/img/TruckHanger_Render.jpg
-  - image_path: assets/img/TruckHanger_Assembled.jpg
+  - image_path: assets/img/TruckHanger_Assembled.JPEG
 
 ---
 
